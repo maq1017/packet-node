@@ -7,6 +7,10 @@ To provide basic config for Direwolf with BPQ to work as a virtual TNC2 packet n
 - Minicom
 - Direwolf & Hamlib
 
+Start direwolf with the included config file
+```
+direwolf -c ./direwolf_9700.conf
+```
 Start linbpq / pilinbpq - I recommend doing this as a background process or in screen, e.g. 
 ```
 screen -d -m sudo ./linbpq

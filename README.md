@@ -1,6 +1,7 @@
 # Overview
 
-To provide basic config for Direwolf with BPQ to work as a virtual TNC2 packet node
+To provide basic config for Direwolf with BPQ to work as a virtual TNC2 packet node.
+
 Further updates will provide full instructions for direwolf build  & compile along with hamlib, but for now this is simply a config repository
 
 ## Requirements:

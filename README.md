@@ -16,10 +16,11 @@ Start linbpq / pilinbpq - I recommend doing this as a background process or in s
 screen -d -m sudo ./linbpq
 ```
 
-Start minicom to connect to Linbpq's virtual com ports, where the com port path is as the first one defined in your bpq32.cfg:
+Start minicom with params to connect to Linbpq's virtual com port, where the com port path is as per the first one defined in your updated bpq32.cfg:
 ```
 minicom -b 19200 -D /home/radio/tnc/com10
 ```
 
+# Running an unattended packet node & mailbox
 
 Additional config under 'node & mailbox' folder is for an unattended packetnode & mailbox which would usually run under a NoV callsign in the UK (e.g. GB7ABC)

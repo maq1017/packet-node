@@ -2,7 +2,7 @@
 
 To provide basic config for Direwolf with BPQ to work as a virtual TNC2 packet node.
 
-Further updates will provide full instructions for direwolf build  & compile along with hamlib, but for now this is simply a config repository. Please enure the user account you're using for direwolf / linbpq has access to the devices. Usually addition to the 'dialout' user group will suffice on Debian/Raspbian distros
+Further updates will provide full instructions for direwolf build  & compile along with hamlib, but for now this is simply a config repository. Please enure the user account you're using for direwolf / linbpq has access to use /dev/tty* devices. Usually an addition to the 'dialout' user group will suffice on Debian/Raspbian distros
 
 ## Requirements:
 - Linbpq / Pilinbpq

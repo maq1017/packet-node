@@ -16,3 +16,6 @@ Start minicom to connect to Linbpq's virtual com ports, where the com port path 
 ```
 minicom -b 19200 -D /home/radio/tnc/com10
 ```
+
+
+Additional config under 'node & mailbox' folder is for an unattended packetnode & mailbox which would usually run under a NoV callsign in the UK (e.g. GB7ABC)
